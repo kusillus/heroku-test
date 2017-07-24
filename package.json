@@ -5,7 +5,17 @@
   "author": "Alexander Guevara Benites <wguevarab7@gmail.com>",
   "private": true,
   "scripts": {
-    "start": "node build/dev-server.js",
+    "start": "node server.js",
     "postinstall": "npm install express"
- }
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kusillus/heroku-test.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kusillus/heroku-test/issues"
+  },
+  "homepage": "https://github.com/kusillus/heroku-test#readme"
 }
